@@ -3,10 +3,7 @@ var unmarked = require('commonform-unmarked-uses')
 var assert = require('assert')
 
 assert.deepEqual(
-  unmarked({
-    content: [
-      { definition: 'Agreement' },
-      'Agreement' ] }),
+  unmarked({ content: [ { definition: 'Agreement' }, 'Agreement' ] }),
   [ { level: 'info',
       message: '"Agreement" is an unmarked defined-term use.',
       path: ['content', 1],
