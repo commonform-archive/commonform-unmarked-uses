@@ -1,0 +1,19 @@
+{
+  "name": "commonform-unmarked-uses",
+  "description": "identify unmarked uses of defined terms in Common Forms",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "dependencies": {
+    "commonform-analyze": "^0.4.3",
+    "commonform-phrase-annotator": "^1.0.2"
+  },
+  "devDependencies": {
+    "defence-cli": "^1.0.1",
+    "replace-require-self": "^1.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": "commonform/commonform-unmarked-uses",
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
