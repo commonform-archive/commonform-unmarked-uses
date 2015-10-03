@@ -5,7 +5,7 @@
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "commonform-analyze": "^0.4.3",
-    "commonform-phrase-annotator": "^1.0.2"
+    "commonform-regexp-annotator": "^1.1.0"
   },
   "devDependencies": {
     "defence-cli": "^1.0.1",
