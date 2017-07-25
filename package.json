@@ -9,11 +9,14 @@
   },
   "devDependencies": {
     "defence-cli": "^1.0.1",
-    "replace-require-self": "^1.0.0"
+    "replace-require-self": "^1.0.0",
+    "standard": "^10.0.2",
+    "standard-markdown": "^4.0.1"
   },
   "license": "Apache-2.0",
   "repository": "commonform/commonform-unmarked-uses",
   "scripts": {
-    "test": "defence README.md | replace-require-self | node"
+    "test": "defence README.md | replace-require-self | node",
+    "lint": "standard && standard-markdown"
   }
 }
