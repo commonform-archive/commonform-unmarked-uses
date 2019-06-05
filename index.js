@@ -13,12 +13,12 @@ module.exports = function unmarkedUses (form) {
       var string = match[1]
       return {
         level: 'info',
-        message: ( '"' + string + '" is an unmarked defined-term use.' ),
+        message: ('"' + string + '" is an unmarked defined-term use.'),
         path: path,
         source: 'commonform-unmarked-uses',
         url: null
       }
     })
-    // Apply the annotator to the form.
-    (form)
+  // Apply the annotator to the form.
+  (form)
 }

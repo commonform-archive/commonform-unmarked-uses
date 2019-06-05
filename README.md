@@ -5,7 +5,7 @@ var assert = require('assert')
 assert.deepEqual(
   unmarked({
     content: [
-      {definition: 'Agreement'},
+      { definition: 'Agreement' },
       'Agreement is an agreement'
     ]
   }),
