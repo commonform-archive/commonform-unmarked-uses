@@ -4,7 +4,7 @@
   "version": "0.1.2",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
-    "commonform-analyze": "^0.4.3",
+    "commonform-analyze": "^4.0.0",
     "commonform-regexp-annotator": "^1.1.0"
   },
   "devDependencies": {
