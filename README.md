@@ -2,7 +2,7 @@
 var unmarked = require('commonform-unmarked-uses')
 var assert = require('assert')
 
-assert.deepEqual(
+assert.deepStrictEqual(
   unmarked({
     content: [
       { definition: 'Agreement' },

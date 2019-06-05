@@ -18,7 +18,5 @@ module.exports = function unmarkedUses (form) {
         source: 'commonform-unmarked-uses',
         url: null
       }
-    })
-  // Apply the annotator to the form.
-  (form)
+    })(form) // Apply the annotator to the form.
 }
