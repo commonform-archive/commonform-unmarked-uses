@@ -8,7 +8,7 @@
   ],
   "dependencies": {
     "commonform-analyze": "^7.0.1",
-    "commonform-regexp-annotator": "^2.0.0"
+    "commonform-regexp-annotator": "^3.0.0"
   },
   "devDependencies": {
     "defence-cli": "^3.0.1",
