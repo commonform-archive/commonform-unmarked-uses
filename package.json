@@ -7,7 +7,7 @@
     "index.js"
   ],
   "dependencies": {
-    "commonform-analyze": "^4.0.0",
+    "commonform-analyze": "^7.0.1",
     "commonform-regexp-annotator": "^2.0.0"
   },
   "devDependencies": {
