@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "commonform-unmarked-uses",
   "description": "identify unmarked uses of defined terms in Common Forms",
   "version": "1.0.0",
@@ -11,13 +12,12 @@
     "commonform-regexp-annotator": "^3.0.0"
   },
   "devDependencies": {
-    "defence-cli": "^3.0.1",
-    "replace-require-self": "^1.0.0"
+    "defence-cli": "^3.0.1"
   },
   "license": "BlueOak-1.0.0",
   "repository": "commonform/commonform-unmarked-uses",
   "scripts": {
-    "test": "defence README.md | replace-require-self | node",
+    "test": "defence README.md | sed \"s!from 'commonform-unmarked-uses'!from './index.js'!\" | node",
     "lint": "standard && standard-markdown"
   }
 }

@@ -1,6 +1,6 @@
 ```javascript
-var unmarked = require('commonform-unmarked-uses')
-var assert = require('assert')
+import unmarked from 'commonform-unmarked-uses'
+import assert from 'assert'
 
 assert.deepStrictEqual(
   unmarked({
